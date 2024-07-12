@@ -9,15 +9,14 @@ Pod::Spec.new do |s|
   Instructions on how to use it are in
   [the README](https://github.com/bmoliveira/Moya-ObjectMapper).
   EOS
-  s.homepage     = "https://github.com/bmoliveira/Moya-ObjectMapper"
+  s.homepage     = "https://github.com/BryanOne/Moya-ObjectMapper"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "Ivan Bruel" => "ivan.bruel@gmail.com" }
-  s.social_media_url   = "http://twitter.com/ivanbruel"
+  s.author             = { "Bryan" => "qing.wang@orionarm.ai" }
   s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.12'
   s.watchos.deployment_target = '3.0'
   s.tvos.deployment_target = '10.0'
-  s.source       = { :git => "https://github.com/bmoliveira/Moya-ObjectMapper.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/BryanOne/Moya-ObjectMapper.git", :tag => s.version }
   s.default_subspec = "Core"
   s.swift_version = '5'
 
